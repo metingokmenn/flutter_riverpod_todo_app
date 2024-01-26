@@ -3,6 +3,6 @@ class TodoModel {
   final String description;
   final bool isCompleted;
 
-  TodoModel(this.id, this.description, this.isCompleted);
+  TodoModel(this.id, this.description,{this.isCompleted = false});
   
 }
